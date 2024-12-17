@@ -1,0 +1,72 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+header .navbar-brand img {
+  margin-right: 10px;
+}
+
+.hero {
+  position: relative;
+  height: 60vh;
+  overflow: hidden;
+}
+
+.hero img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.hero-text {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cta {
+  background-color: #d4edda;
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+.cta h2 {
+  margin-bottom: 20px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Form Styles */
+form label {
+  font-weight: bold;
+}
+
+form input, form textarea {
+  border-radius: 5px;
+}
+
+.btn-success, .btn-warning, .btn-primary {
+  transition: background-color 0.3s;
+}
+
+.btn-success:hover, .btn-warning:hover, .btn-primary:hover {
+  opacity: 0.8;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .hero-text h1 {
+      font-size: 2rem;
+  }
+  .hero-text p {
+      font-size: 1rem;
+  }
+}
