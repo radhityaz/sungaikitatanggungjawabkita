@@ -1,0 +1,34 @@
+jagasungai-website/
+├─ index.html
+├─ edukasi.html
+├─ pengaduan.html
+├─ kegiatan.html
+├─ kontak.html
+├─ assets/
+│  ├─ img/
+│  │  ├─ logo/
+│  │  │  ├─ logo.png
+│  │  │  └─ favicon.ico
+│  │  ├─ hero/
+│  │  │  └─ hero-01-sungai-tercemar.jpg
+│  │  ├─ edukasi/
+│  │  │  ├─ edu-01-penyebab-pencemaran.svg
+│  │  │  ├─ edu-02-dampak-pencemaran.svg
+│  │  │  └─ edu-03-solusi-bersih-sungai.svg
+│  │  ├─ icons/
+│  │  │  ├─ icon-01-rumah.svg
+│  │  │  ├─ icon-02-pabrik.svg
+│  │  │  ├─ icon-03-daur-ulang.svg
+│  │  │  └─ icon-04-air-bersih.svg
+│  │  └─ kegiatan/
+│  │     └─ kegiatan-01-bersih-sungai.jpg
+│  ├─ vids/
+│  │  └─ kampanye.mp4
+│  ├─ css/
+│  │  └─ style.css
+│  └─ js/
+│     └─ script.js
+└─ backend/
+   ├─ config.php
+   ├─ submit_report.php
+   └─ database.sql
